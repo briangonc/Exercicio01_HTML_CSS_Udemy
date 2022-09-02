@@ -1,0 +1,77 @@
+html { /* tag usada para adicionar estilo a TODO o html */
+    font-family: Helvetica;
+    background-color: #DDD;
+}
+
+.container { /* foi criada a tag container (master) para englobar toda a página e elementos */
+    max-width: 100%; /* largura de no máximo 1200px */
+    position: relative; /* usado para centralizar todo o conteúdo da página */
+    margin-left: auto; /* usado para centralizar todo o conteúdo da página */
+    margin-right: auto; /* usado para centralizar todo o conteúdo da página */
+    padding: 20px 50px; /* usado para descolar os textos dos cantos da tela */
+    margin: 50px;
+    background-color: #FFF;
+}
+
+.destaque {
+    font-weight: bold; /* usado para deixar a classe no HTML em negrito */
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+    text-align: center;
+}
+
+.titulo-principal {
+    font-size: 40px;
+}
+
+.paragrafo-principal {
+    font-style: italic;
+}
+
+/* Corpo do site */
+
+.img-destaque {
+    text-align: center; /* usada para centralizar a classe que está dentro da DIV das imagens */
+    margin-top: 30px; /* usado para descolar do elemento de cima */
+}
+
+/* Biografia */ 
+
+.biografia-container {
+    padding: 25px 0; /* padding de 25px cima e baixo e laterais de 0px para ganhar espaçamento interno */
+    margin: 25px 0; /* margin de 25px cima e baixo e laterais de 0px para ganhar espaçamento externo */
+    border-top: 1px dashed #DDD; /* para acrescentar borda em cima */
+    border-bottom: 1px dashed #DDD; /* para acrescentar borda em baixo */
+}
+
+/* Citações */ 
+
+.frase-container {
+    background-color: #DDD; /* Só para adicionar cor ao background */
+    padding: 30px;
+}
+
+.frase-container blockquote {
+    font-weight: 600; /* font-weight que equivale ao bold (negrito) */
+    font-size: 30px;
+}
+
+.frase-container p {
+    font-style: italic;
+}
+
+/* Curiosidades */ 
+
+.curiosidades-container {
+    padding: 25px 0; /* padding de 25px cima e baixo e laterais de 0px para ganhar espaçamento interno */
+    margin: 25px 0; /* margin de 25px cima e baixo e laterais de 0px para ganhar espaçamento externo */
+    border-top: 1px dashed #DDD; /* para acrescentar borda em cima */
+    border-bottom: 1px dashed #DDD; /* para acrescentar borda em baixo */
+}
+
+.curiosidade-container li {
+    height: 30px; /* usado para descolar um dos outros em 30px */
+}
